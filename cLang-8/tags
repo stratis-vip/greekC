@@ -1,0 +1,75 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ALG_ANADROMI_H_	alg_anadromi.h	24;"	d
+ARRAY_H_	array.h	37;"	d
+CC	Makefile	/^CC=clang$/;"	m
+CLANGS	Makefile	/^CLANGS=-Wall -std=c11$/;"	m
+DBG	Makefile	/^DBG=-g$/;"	m
+DirectoryOfThisScript	.ycm_extra_conf.py	/^def DirectoryOfThisScript():$/;"	f
+ERROR	random.c	5;"	d	file:
+FlagsForFile	.ycm_extra_conf.py	/^def FlagsForFile( filename, **kwargs ):$/;"	f
+GetCompilationInfoForFile	.ycm_extra_conf.py	/^def GetCompilationInfoForFile( filename ):$/;"	f
+INC	Makefile	/^INC=..\/includes\/$/;"	m
+IsHeaderFile	.ycm_extra_conf.py	/^def IsHeaderFile( filename ):$/;"	f
+MAXSTR	test.c	4;"	d	file:
+MSTD_H_	mstd.h	22;"	d
+MSTRING_H	mstring.h	2;"	d
+MY_MATH_H_	my_math.h	29;"	d
+MakeRelativePathsInFlagsAbsolute	.ycm_extra_conf.py	/^def MakeRelativePathsInFlagsAbsolute( flags, working_directory ):$/;"	f
+SIZE	paragontiko.c	7;"	d	file:
+SIZE	random.c	4;"	d	file:
+SOURCE_EXTENSIONS	.ycm_extra_conf.py	/^SOURCE_EXTENSIONS = [ '.C', '.cpp', '.cxx', '.cc', '.c', '.m', '.mm' ]$/;"	v
+SWAP	mstd.c	1;"	d	file:
+SWAP	mstd.h	24;"	d
+Test	mstring_test.c	/^Test(first_tests, first_test) {$/;"	f
+anoi	alg_anadromi.c	/^void anoi(int N, char *a, char *b, char *c)$/;"	f
+avg	array.c	/^float avg(int *pinakas, int n)$/;"	f
+binary_search	array.c	/^int binary_search(int *pinakas, int n, int value)$/;"	f
+binary_search_rec	array.c	/^int binary_search_rec(int *pinakas, int start, int finish, int value)$/;"	f
+comp	paragontiko.c	/^int comp(const void *a, const void *b) { return (*(int *)a - *(int *)b); }$/;"	f
+compilation_database_folder	.ycm_extra_conf.py	/^compilation_database_folder = ''$/;"	v
+con	array.c	/^void con(int *A, int nA, int *B, int nB, int *C)$/;"	f
+database	.ycm_extra_conf.py	/^  database = None$/;"	v
+database	.ycm_extra_conf.py	/^  database = ycm_core.CompilationDatabase( compilation_database_folder )$/;"	v
+fibonacci	alg_anadromi.c	/^unsigned long long fibonacci(int n)$/;"	f
+flags	.ycm_extra_conf.py	/^flags = [$/;"	v
+get_split_pos	array.c	/^int get_split_pos(int *pin, int start, int finish)$/;"	f
+init_array	array.c	/^void init_array(int *pinakas, int n, int a, int b)$/;"	f
+init_array	random.c	/^void init_array(long *pinakas, int n, long a, long b)$/;"	f
+init_sorted_asc_array	array.c	/^void init_sorted_asc_array(int *pinakas, int n, int a, int b)$/;"	f
+is_cube	my_math.c	/^int is_cube(int n)$/;"	f
+is_even	my_math.c	/^int is_even(int n)$/;"	f
+is_odd	my_math.c	/^int is_odd(int n)$/;"	f
+is_prime	my_math.c	/^int is_prime(int n)$/;"	f
+is_square	my_math.c	/^int is_square(int n)$/;"	f
+linear_search	array.c	/^int linear_search(int *pinakas, int n, int value)$/;"	f
+main	paragontiko.c	/^int main(int argc, char **argv) {$/;"	f
+main	random.c	/^int main(int argc, char **argv)$/;"	f
+main	test.c	/^int main(int argc, char **argv) {$/;"	f
+max_array	array.c	/^int max_array(int *pinakas, int n)$/;"	f
+max_array	random.c	/^int max_array(long *pinakas, int n)$/;"	f
+min_array	array.c	/^int min_array(int *pinakas, int n)$/;"	f
+mkd	alg_anadromi.c	/^int mkd(int a, int b)$/;"	f
+mystr_len	mstring.c	/^int mystr_len(const char *str) {$/;"	f
+order_array_bubble	array.c	/^void order_array_bubble(int *pinakas, int n, int order)$/;"	f
+order_array_bubble_rec	array.c	/^void order_array_bubble_rec(int *pinakas, int n, int order)$/;"	f
+order_array_ins	array.c	/^void order_array_ins(int *pinakas, int n, int order)$/;"	f
+order_array_ins_rec	array.c	/^void order_array_ins_rec(int *pinakas, int n, int order)$/;"	f
+order_array_merge	array.c	/^void order_array_merge(int *pinakas, int n)$/;"	f
+order_array_qsort	array.c	/^void order_array_qsort(int *pin, int start, int finish)$/;"	f
+order_array_sel	array.c	/^void order_array_sel(int *pinakas, int n, int order)$/;"	f
+order_array_sel_rec	array.c	/^void order_array_sel_rec(int *pinakas, int n, int order)$/;"	f
+os	.ycm_extra_conf.py	/^import os$/;"	i
+paragontiko	my_math.c	/^unsigned long long paragontiko(int n)$/;"	f
+print_array	array.c	/^void print_array(int *pinakas, int n)$/;"	f
+print_array	random.c	/^void print_array(long *pinakas, int n)$/;"	f
+product_array	array.c	/^unsigned long long product_array(int *pinakas, int n)$/;"	f
+sum	my_math.c	/^unsigned long long sum(int n)$/;"	f
+sum_array	array.c	/^int sum_array(int *pinakas, int n)$/;"	f
+swap_int	mstd.c	/^void swap_int(int *a, int *b)$/;"	f
+test_string	mstring_test.c	/^char test_string[] = "test string and others";$/;"	v
+ycm_core	.ycm_extra_conf.py	/^import ycm_core$/;"	i
