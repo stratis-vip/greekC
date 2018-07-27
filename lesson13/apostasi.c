@@ -34,11 +34,11 @@ void get_point(point *p) {
     printf("Δώσε τις συνεταγμένες του σημείου: \n");
     do {
         printf("X: ");
-        p->x = (float) mfgets_double(&ptr, 1);
+        p->x = (float) mfgets_double(&ptr, MAXCHARSIZE, 1);
     } while (ptr[0] != '\0');
     do {
         printf("Y: ");
-        p->y = (float) mfgets_double(&ptr, 1);
+        p->y = (float) mfgets_double(&ptr, MAXCHARSIZE, 1);
     } while (ptr[0] != '\0');
 }
 

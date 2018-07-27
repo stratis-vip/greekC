@@ -3,6 +3,7 @@
 //
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 #include "../includes/mio.h"
 
 #define STRSIZE 80
@@ -23,13 +24,17 @@ void init_record(RECORD *rec);
 
 void free_record(RECORD rec);
 
+void copy_record(RECORD *dest, RECORD src);
+
 int main()
 {
 
-    int N;
+    int N, epilogi;
     char *error;
     char errorT[MAXCHARSIZE] = {};
+    RECORD x, *records;
     error = errorT;
+
     do
     {
         printf("Πόσες εγγραφές θες να εισάγεις; ");
@@ -39,7 +44,6 @@ int main()
             printf("Λάθος εισαγωγή στοιχείων: [%s]\n", error);
         }
     } while (error[0] != '\0');
-    RECORD *records;
 
     records = malloc(sizeof(RECORD) * N);
     if (!records)
@@ -53,11 +57,28 @@ int main()
         init_record(&records[i]);
         read_record(&records[i]);
     }
+
+    init_record(&x);
+
+    do
+    {
+        printf("Ποια εγγραφή θέλεις να αντιγράψεις (0..%d): ", N-1);
+        epilogi = mfgets_int(&error, MAXCHARSIZE, 0);
+        if (error[0] != '\0')
+        {
+            printf("Λάθος εισαγωγή επιλογής: [%s]\n", error);
+        }
+    } while (error[0] != '\0');
+
+    copy_record(&x, records[epilogi]);
+    printf("\n\nX (%dη εγγραφή):\n",epilogi);
+    print_record(x);
     for (int i = 0; i < N; ++i)
     {
         print_record(records[i]);
         free_record(records[i]);
     }
+    free_record(x);
     free(records);
 }
 
@@ -117,4 +138,12 @@ void free_record(RECORD rec)
     free(rec.diefthinsi);
     free(rec.onoma);
     free(rec.arithmos);
+}
+
+void copy_record(RECORD *dest, RECORD src)
+{
+    strcpy(dest->onoma, src.onoma);
+    strcpy(dest->diefthinsi, src.diefthinsi);
+    strcpy(dest->nomos, src.nomos);
+    strcpy(dest->arithmos, src.arithmos);
 }
