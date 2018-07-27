@@ -1,0 +1,5 @@
+/Users/stratis/Desktop/development/cLang/greekC/lesson13/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/stratis/Desktop/development/cLang/greekC/lesson13/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/stratis/Desktop/development/cLang/greekC/lesson13/cmake-build-debug/CMakeFiles/domes.dir
+/Users/stratis/Desktop/development/cLang/greekC/lesson13/cmake-build-debug/CMakeFiles/apostasi.dir
+/Users/stratis/Desktop/development/cLang/greekC/lesson13/cmake-build-debug/CMakeFiles/lesson13.dir

@@ -9,6 +9,6 @@
 
 void mfgets(char *p, int size);
 long mfgets_int(char **ptr, int size, int accept_error);
-double mfgets_double(char **ptr, int accept_error);
+double mfgets_double(char **ptr, int size, int accept_error);
 
 #endif //MIO_H

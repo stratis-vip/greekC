@@ -35,7 +35,6 @@ void mfgets(char *p, int size) {
  * @return Ακέραιος.
  */
 long mfgets_int(char **ptr, int size, int accept_error) {
-
     mfgets(*ptr, size);
     char *end_ptr;
 
@@ -57,13 +56,11 @@ long mfgets_int(char **ptr, int size, int accept_error) {
  *  1 αν έχει λάθος χαρακτήρες επιστρέφει 0
  * @return Πραγματικός διπλής ακριβείας.
  */
-double mfgets_double(char **ptr, int accept_error) {
-    char temp[MAXCHARSIZE] = {}; //ορίζω ένα πίνακα να κρατά την είσοδο
-                  //ορίζω ένα δείκτη στο πίνακα που θα κρατά την είσοδο για να τον καλώ byreference
-    mfgets(temp, MAXCHARSIZE);
+double mfgets_double(char **ptr, int size, int accept_error) {
+    mfgets(*ptr, size);
     char *end_ptr;
 
-    end_ptr = temp;
+    end_ptr = *ptr;
     double ret_val = strtof(end_ptr, ptr);
 
     //αν υπάρχει λάθος, τότε ο ptr δεν είναι NULL

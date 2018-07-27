@@ -1,0 +1,32 @@
+[
+{
+  "directory": "/Users/stratis/Desktop/development/cLang/greekC/lesson13/build",
+  "command": "/usr/bin/clang  -I/Users/stratis/Desktop/development/cLang/greekC/lesson13/../includes  -g   -std=gnu11 -o CMakeFiles/domes.dir/domes.c.o   -c /Users/stratis/Desktop/development/cLang/greekC/lesson13/domes.c",
+  "file": "/Users/stratis/Desktop/development/cLang/greekC/lesson13/domes.c"
+},
+{
+  "directory": "/Users/stratis/Desktop/development/cLang/greekC/lesson13/build",
+  "command": "/usr/bin/clang  -I/Users/stratis/Desktop/development/cLang/greekC/lesson13/../includes  -g   -std=gnu11 -o CMakeFiles/domes.dir/Users/stratis/Desktop/development/cLang/greekC/includes/mio.c.o   -c /Users/stratis/Desktop/development/cLang/greekC/includes/mio.c",
+  "file": "/Users/stratis/Desktop/development/cLang/greekC/includes/mio.c"
+},
+{
+  "directory": "/Users/stratis/Desktop/development/cLang/greekC/lesson13/build",
+  "command": "/usr/bin/clang  -I/Users/stratis/Desktop/development/cLang/greekC/lesson13/../includes  -g   -std=gnu11 -o CMakeFiles/apostasi.dir/apostasi.c.o   -c /Users/stratis/Desktop/development/cLang/greekC/lesson13/apostasi.c",
+  "file": "/Users/stratis/Desktop/development/cLang/greekC/lesson13/apostasi.c"
+},
+{
+  "directory": "/Users/stratis/Desktop/development/cLang/greekC/lesson13/build",
+  "command": "/usr/bin/clang  -I/Users/stratis/Desktop/development/cLang/greekC/lesson13/../includes  -g   -std=gnu11 -o CMakeFiles/apostasi.dir/Users/stratis/Desktop/development/cLang/greekC/includes/mio.c.o   -c /Users/stratis/Desktop/development/cLang/greekC/includes/mio.c",
+  "file": "/Users/stratis/Desktop/development/cLang/greekC/includes/mio.c"
+},
+{
+  "directory": "/Users/stratis/Desktop/development/cLang/greekC/lesson13/build",
+  "command": "/usr/bin/clang  -I/Users/stratis/Desktop/development/cLang/greekC/lesson13/../includes  -g   -std=gnu11 -o CMakeFiles/lesson13.dir/struct.c.o   -c /Users/stratis/Desktop/development/cLang/greekC/lesson13/struct.c",
+  "file": "/Users/stratis/Desktop/development/cLang/greekC/lesson13/struct.c"
+},
+{
+  "directory": "/Users/stratis/Desktop/development/cLang/greekC/lesson13/build",
+  "command": "/usr/bin/clang  -I/Users/stratis/Desktop/development/cLang/greekC/lesson13/../includes  -g   -std=gnu11 -o CMakeFiles/lesson13.dir/Users/stratis/Desktop/development/cLang/greekC/includes/mio.c.o   -c /Users/stratis/Desktop/development/cLang/greekC/includes/mio.c",
+  "file": "/Users/stratis/Desktop/development/cLang/greekC/includes/mio.c"
+}
+]

@@ -1,0 +1,1 @@
+/usr/bin/clang -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/lesson13.dir/struct.c.o CMakeFiles/lesson13.dir/Users/stratis/Desktop/development/cLang/greekC/includes/mio.c.o  -o lesson13 

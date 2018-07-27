@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/stratis/Desktop/development/cLang/greekC/includes/mio.c
+stdio.h
+-
+stdlib.h
+-
+mio.h
+/Users/stratis/Desktop/development/cLang/greekC/includes/mio.h
+
+/Users/stratis/Desktop/development/cLang/greekC/includes/mio.h
+
