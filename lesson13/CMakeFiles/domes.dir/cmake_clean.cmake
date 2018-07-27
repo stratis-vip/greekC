@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/domes.dir/domes.c.o"
   "CMakeFiles/domes.dir/Users/stratis/Desktop/development/cLang/greekC/includes/mio.c.o"
+  "CMakeFiles/domes.dir/records.c.o"
   "domes.pdb"
   "domes"
 )

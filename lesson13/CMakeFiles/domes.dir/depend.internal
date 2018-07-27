@@ -7,3 +7,8 @@ CMakeFiles/domes.dir/Users/stratis/Desktop/development/cLang/greekC/includes/mio
 CMakeFiles/domes.dir/domes.c.o
  /Users/stratis/Desktop/development/cLang/greekC/includes/mio.h
  /Users/stratis/Desktop/development/cLang/greekC/lesson13/domes.c
+ /Users/stratis/Desktop/development/cLang/greekC/lesson13/records.h
+CMakeFiles/domes.dir/records.c.o
+ ../includes/mio.h
+ /Users/stratis/Desktop/development/cLang/greekC/lesson13/records.c
+ /Users/stratis/Desktop/development/cLang/greekC/lesson13/records.h

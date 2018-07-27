@@ -236,6 +236,33 @@ domes.c.s:
 	$(MAKE) -f CMakeFiles/domes.dir/build.make CMakeFiles/domes.dir/domes.c.s
 .PHONY : domes.c.s
 
+records.o: records.c.o
+
+.PHONY : records.o
+
+# target to build an object file
+records.c.o:
+	$(MAKE) -f CMakeFiles/domes.dir/build.make CMakeFiles/domes.dir/records.c.o
+.PHONY : records.c.o
+
+records.i: records.c.i
+
+.PHONY : records.i
+
+# target to preprocess a source file
+records.c.i:
+	$(MAKE) -f CMakeFiles/domes.dir/build.make CMakeFiles/domes.dir/records.c.i
+.PHONY : records.c.i
+
+records.s: records.c.s
+
+.PHONY : records.s
+
+# target to generate assembly for a file
+records.c.s:
+	$(MAKE) -f CMakeFiles/domes.dir/build.make CMakeFiles/domes.dir/records.c.s
+.PHONY : records.c.s
+
 struct.o: struct.c.o
 
 .PHONY : struct.o
@@ -283,6 +310,9 @@ help:
 	@echo "... domes.o"
 	@echo "... domes.i"
 	@echo "... domes.s"
+	@echo "... records.o"
+	@echo "... records.i"
+	@echo "... records.s"
 	@echo "... struct.o"
 	@echo "... struct.i"
 	@echo "... struct.s"

@@ -9,4 +9,4 @@ add_executable(lesson13 struct.c ${INC}mio.c ${INC}mio.h)
 add_executable(apostasi apostasi.c  ${INC}mio.c ${INC}mio.h)
 
 
-add_executable(domes domes.c ${INC}mio.c ${INC}mio.h)
+add_executable(domes domes.c ${INC}mio.c ${INC}mio.h records.c records.h)

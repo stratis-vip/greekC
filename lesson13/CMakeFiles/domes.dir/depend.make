@@ -6,4 +6,9 @@ CMakeFiles/domes.dir/Users/stratis/Desktop/development/cLang/greekC/includes/mio
 
 CMakeFiles/domes.dir/domes.c.o: /Users/stratis/Desktop/development/cLang/greekC/includes/mio.h
 CMakeFiles/domes.dir/domes.c.o: domes.c
+CMakeFiles/domes.dir/domes.c.o: records.h
+
+CMakeFiles/domes.dir/records.c.o: ../includes/mio.h
+CMakeFiles/domes.dir/records.c.o: records.c
+CMakeFiles/domes.dir/records.c.o: records.h
 

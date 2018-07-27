@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_C
   "/Users/stratis/Desktop/development/cLang/greekC/includes/mio.c" "/Users/stratis/Desktop/development/cLang/greekC/lesson13/CMakeFiles/domes.dir/Users/stratis/Desktop/development/cLang/greekC/includes/mio.c.o"
   "/Users/stratis/Desktop/development/cLang/greekC/lesson13/domes.c" "/Users/stratis/Desktop/development/cLang/greekC/lesson13/CMakeFiles/domes.dir/domes.c.o"
+  "/Users/stratis/Desktop/development/cLang/greekC/lesson13/records.c" "/Users/stratis/Desktop/development/cLang/greekC/lesson13/CMakeFiles/domes.dir/records.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 

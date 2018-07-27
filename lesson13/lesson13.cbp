@@ -150,6 +150,12 @@
 		<Unit filename="/Users/stratis/Desktop/development/cLang/greekC/lesson13/domes.c">
 			<Option target="domes"/>
 		</Unit>
+		<Unit filename="/Users/stratis/Desktop/development/cLang/greekC/lesson13/records.c">
+			<Option target="domes"/>
+		</Unit>
+		<Unit filename="/Users/stratis/Desktop/development/cLang/greekC/lesson13/records.h">
+			<Option target="domes"/>
+		</Unit>
 		<Unit filename="/Users/stratis/Desktop/development/cLang/greekC/lesson13/struct.c">
 			<Option target="lesson13"/>
 		</Unit>

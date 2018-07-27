@@ -6,15 +6,19 @@
 
 #IncludeRegexTransform: 
 
-/Users/stratis/Desktop/development/cLang/greekC/includes/mio.h
+../includes/mio.h
 
-/Users/stratis/Desktop/development/cLang/greekC/lesson13/domes.c
+/Users/stratis/Desktop/development/cLang/greekC/lesson13/records.c
+stdlib.h
+-
 stdio.h
 -
-stdlib.h
+mio.h
 -
 string.h
 -
-../includes/mio.h
-/Users/stratis/Desktop/development/cLang/greekC/includes/mio.h
+records.h
+/Users/stratis/Desktop/development/cLang/greekC/lesson13/records.h
+
+/Users/stratis/Desktop/development/cLang/greekC/lesson13/records.h
 

@@ -71,7 +71,7 @@ CMAKE_BINARY_DIR = /Users/stratis/Desktop/development/cLang/greekC/lesson13
 CMakeFiles/domes.dir/all:
 	$(MAKE) -f CMakeFiles/domes.dir/build.make CMakeFiles/domes.dir/depend
 	$(MAKE) -f CMakeFiles/domes.dir/build.make CMakeFiles/domes.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/stratis/Desktop/development/cLang/greekC/lesson13/CMakeFiles --progress-num=4,5,6 "Built target domes"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/stratis/Desktop/development/cLang/greekC/lesson13/CMakeFiles --progress-num=4,5,6,7 "Built target domes"
 .PHONY : CMakeFiles/domes.dir/all
 
 # Include target in all.
@@ -81,7 +81,7 @@ all: CMakeFiles/domes.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/domes.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/stratis/Desktop/development/cLang/greekC/lesson13/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/stratis/Desktop/development/cLang/greekC/lesson13/CMakeFiles 4
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/domes.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/stratis/Desktop/development/cLang/greekC/lesson13/CMakeFiles 0
 .PHONY : CMakeFiles/domes.dir/rule
@@ -145,7 +145,7 @@ clean: CMakeFiles/apostasi.dir/clean
 CMakeFiles/lesson13.dir/all:
 	$(MAKE) -f CMakeFiles/lesson13.dir/build.make CMakeFiles/lesson13.dir/depend
 	$(MAKE) -f CMakeFiles/lesson13.dir/build.make CMakeFiles/lesson13.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/stratis/Desktop/development/cLang/greekC/lesson13/CMakeFiles --progress-num=7,8,9 "Built target lesson13"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/stratis/Desktop/development/cLang/greekC/lesson13/CMakeFiles --progress-num=8,9,10 "Built target lesson13"
 .PHONY : CMakeFiles/lesson13.dir/all
 
 # Include target in all.
